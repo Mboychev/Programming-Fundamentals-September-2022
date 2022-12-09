@@ -9,6 +9,30 @@
 # Print the words in the following format:
 # {word} - {synonym1, synonym2 … synonymN}
 
+# ###################################EXAMPLES#######################################
+
+# Input:
+# 3
+# cute
+# adorable
+# cute
+# charming
+# smart
+# clever
+
+# Output:
+# cute - adorable, charming
+# smart - clever
+
+# Input:
+# 2
+# task
+# problem
+# task
+# assignment
+
+# Output:
+# task – problem, assignment
 
 count_of_words = int(input())
 dict = {}
