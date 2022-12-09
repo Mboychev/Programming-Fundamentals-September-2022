@@ -1,3 +1,28 @@
+"""Write a program that reads a floating-point number and:
+-	prints "zero" if the number is zero
+-	prints "positive" or "negative"
+-	adds "small" if the absolute value of the number is less than 1 and it is not 0, or "large" if it exceeds
+1 000 000
+
+###################################EXAMPLES#######################################
+Input: 25
+Output: positive
+
+Input: 0.7
+Output: small positive
+
+Input: 435247392.921
+Output: large positive
+
+Input: -0.005
+Output: small negative
+
+Input: -103.21
+Output: negative
+
+Input: -358583355123.001
+Output: large negative"""
+
 number = float(input())
 
 if number == 0:
