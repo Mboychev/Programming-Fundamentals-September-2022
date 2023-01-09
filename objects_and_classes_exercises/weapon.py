@@ -1,11 +1,31 @@
-# Create a class Weapon. The __init__ method should receive a number of bullets (integer).
-# Create an attribute called bullets to store that number. The class should also have the following methods:
-# •	shoot()
-# o	If there are bullets in the weapon, reduce them by 1 and return a message "shooting..."
-# o	If there are no bullets left, return: "no bullets left"
-# •	__repr__()
-# o	Returns "Remaining bullets: {amount_of_bullets}"
-# o	You can read more about the method here: link
+"""Create a class Weapon. The __init__ method should receive a number of bullets (integer).
+Create an attribute called bullets to store that number. The class should also have the following methods:
+•	shoot()
+o	If there are bullets in the weapon, reduce them by 1 and return a message "shooting..."
+o	If there are no bullets left, return: "no bullets left"
+•	__repr__()
+o	Returns "Remaining bullets: {amount_of_bullets}"
+o	You can read more about the method here: link
+###################################EXAMPLES#######################################
+Input:
+4 5 3
+1
+1
+0
+Output: 14
+
+Input:
+5 10 6 3 5
+2
+4
+1
+1
+3
+0
+0
+Output: 51
+"""
+
 
 class Weapon:
 
